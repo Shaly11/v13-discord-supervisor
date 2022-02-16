@@ -46,6 +46,6 @@ readdir("./src/events", (err, files) => {
   });
 });
 
-client.login("BOT TOKENİNİZİ BURAYA YAZINIZ")
+client.login("OTQzNTU2MDU0OTE3MjE4MzY1.Yg0xDQ.zmvUfXMQ0QWQbxRpA2hRM8emCMQ")
   .then(() => console.log(`Bot ${client.user.username} olarak giriş yaptı!`))
   .catch((err) => console.log(`Bot Giriş yapamadı sebep: ${err}`));
